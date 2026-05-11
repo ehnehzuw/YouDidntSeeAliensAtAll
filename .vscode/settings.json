@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.generated.h": "cpp",
+    "*.gen.cpp": "cpp"
+  },
+  "files.watcherExclude": {
+    "**/Binaries/**": true,
+    "**/DerivedDataCache/**": true,
+    "**/Saved/**": true
+  }
+}

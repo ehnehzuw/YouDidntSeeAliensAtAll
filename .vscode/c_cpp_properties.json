@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "UE 5.6 Win64 Editor",
+      "includePath": [
+        "${workspaceFolder}/Source/**",
+        "${workspaceFolder}/Plugins/**/Source/**",
+        "${workspaceFolder}/Intermediate/Build/Win64/UnrealEditor/Inc/**",
+        "${workspaceFolder}/Plugins/**/Intermediate/Build/Win64/UnrealEditor/Inc/**",
+        "C:/Program Files/Epic Games/UE_5.6/Engine/Source/**",
+        "C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/**/Source/**",
+        "C:/Program Files/Epic Games/UE_5.6/Engine/Intermediate/Build/Win64/UnrealEditor/Inc/**"
+      ],
+      "defines": [
+        "UNICODE",
+        "_UNICODE",
+        "__UNREAL__",
+        "WIN32",
+        "_WIN32",
+        "_WIN64",
+        "NOMINMAX",
+        "PLATFORM_WINDOWS=1",
+        "PLATFORM_MICROSOFT=1",
+        "WITH_ENGINE=1",
+        "WITH_EDITOR=1",
+        "WITH_EDITORONLY_DATA=1",
+        "WITH_UNREAL_DEVELOPER_TOOLS=1",
+        "UE_EDITOR=1",
+        "UE_BUILD_DEVELOPMENT=1",
+        "IS_PROGRAM=0"
+      ],
+      "intelliSenseMode": "windows-msvc-x64",
+      "cppStandard": "c++20",
+      "cStandard": "c17",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Source",
+          "${workspaceFolder}/Plugins",
+          "${workspaceFolder}/Intermediate/Build/Win64/UnrealEditor/Inc",
+          "C:/Program Files/Epic Games/UE_5.6/Engine/Source",
+          "C:/Program Files/Epic Games/UE_5.6/Engine/Plugins",
+          "C:/Program Files/Epic Games/UE_5.6/Engine/Intermediate/Build/Win64/UnrealEditor/Inc"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
