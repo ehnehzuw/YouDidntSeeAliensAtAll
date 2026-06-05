@@ -70,7 +70,7 @@ void AFloatActor::Tick(float DeltaTime)
 
 	RunningTime += DeltaTime;
 
-	const float DesiredZ = HoverOriginZ + TargetHeight + FMath::Sin(RunningTime * FloatSpeed) * FloatAmplitude* 0.25f;
+	const float DesiredZ = HoverOriginZ + TargetHeight + FMath::Sin(RunningTime * FloatSpeed) * FloatAmplitude* 0.1f;
 
 	FVector NewLocation = GetActorLocation();
 	NewLocation.Z = DesiredZ;
