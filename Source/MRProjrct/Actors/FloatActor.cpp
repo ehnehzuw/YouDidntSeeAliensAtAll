@@ -44,7 +44,7 @@ void AFloatActor::BeginPlay()
 // Called every frame
 void AFloatActor::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	/*Super::Tick(DeltaTime);
 
 	if (!Mesh)
 	{
@@ -74,7 +74,7 @@ void AFloatActor::Tick(float DeltaTime)
 
 	FVector NewLocation = GetActorLocation();
 	NewLocation.Z = DesiredZ;
-	SetActorLocation(NewLocation);
+	SetActorLocation(NewLocation);*/
 }
 
 void AFloatActor::SetHeld(bool bInHeld)
